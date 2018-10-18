@@ -6,7 +6,7 @@ module Swagger
           base.response 400 do
             key :description, "Переданные параметры не могут быть обработаны"
             schema do
-              key :'$ref', :'Swagger::V1::::Models::Apress::Api::UnprocessableError'
+              key :'$ref', :'Swagger::V1::Models::Apress::Api::UnprocessableError'
             end
           end
         end

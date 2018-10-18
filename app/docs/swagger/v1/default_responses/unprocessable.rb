@@ -6,7 +6,7 @@ module Swagger
           base.response 422 do
             key :description, "Переданные параметры не валидны"
             schema do
-              key :'$ref', :'Swagger::V1::::Models::Apress::Api::UnprocessableError'
+              key :'$ref', :'Swagger::V1::Models::Apress::Api::UnprocessableError'
             end
           end
         end
